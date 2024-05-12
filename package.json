@@ -5,10 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "db-server": "json-server --watch --port 5000 db.json"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "core-js": "^3.8.3",
+    "json": "^11.0.0",
+    "server": "^1.0.39",
     "vue": "^3.2.13"
   },
   "devDependencies": {
